@@ -1,3 +1,3 @@
 # JokeApp
 
-Such empty, for now.
+throw new NotImplementedException();
