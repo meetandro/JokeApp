@@ -61,7 +61,7 @@ public class JokesController(ApplicationDbContext context) : Controller
         {
             _context.Add(joke);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Create));
+            return RedirectToAction();
         }
         return View(joke);
     }
