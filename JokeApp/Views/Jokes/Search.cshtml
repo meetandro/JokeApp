@@ -8,16 +8,15 @@
     <div class="col-md-4">
         <form asp-action="Search">
             <div class="form-group">
-                <label class="control-label">Search Phrase:</label>
-                <input name="phrase" class="form-control">
+                <label for="phrase" class="control-label">Phrase</label>
+                <input name="phrase" id="phrase" class="form-control">
             </div>
             <div class="form-group">
-                <input type="submit" value="Search" class="btn btn-primary">
+                <button type="submit" class="btn btn-primary">Search</button>
             </div>
         </form>
     </div>
 </div>
-
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="List">Back to List</a>
 </div>
